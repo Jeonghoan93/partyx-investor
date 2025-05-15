@@ -1,0 +1,44 @@
+/* Import Vuetify precompiled CSS */
+@import 'vuetify/styles';
+
+/* Font source */
+@import "@fontsource/fredoka/400.css";
+@import "@fontsource/fredoka/700.css";
+
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/600.css';
+@import '@fontsource/inter/700.css';
+
+/* Tailwind directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+html,
+body {
+  font-family: 'Inter', sans-serif;
+  touch-action: manipulation;
+}
+
+
+.shadow-text {
+  text-shadow: 2px 2px 3px rgba(165, 171, 171, 0.5);
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+}
+
+/* For Chrome, Safari, and other WebKit browsers */
+*::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
