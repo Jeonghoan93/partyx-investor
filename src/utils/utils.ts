@@ -3,5 +3,5 @@ export const onClickNavigateToLinkedin = () => {
 }
 
 export const onClickVisitPartyX = () => {
-  window.open('https://partyxberlin.com', '_blank')
+  window.open('https://partyx.info', '_blank')
 }
